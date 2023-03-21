@@ -1,7 +1,7 @@
 echo 'scriptName:' $0
-RELATIVE_DIR=`dirname "$0"`
-echo 'relative Path:' $RELATIVE_DIR
+asd=`dirname "$0"`
+echo 'relative Path:' $asd
 
-cd $RELATIVE_DIR
+cd $asd
 SHELL_PATH=`pwd -P`
 echo 'Absolute Path:' $SHELL_PATH
